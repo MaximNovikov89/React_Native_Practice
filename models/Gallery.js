@@ -1,8 +1,9 @@
-class Gallery {
-    constructor(id, title, imageUrl, description) {
+export default class Gallery {
+    constructor(id, title, imageUrl, numberOfImages, allPictures) {
         this.id = id;
         this.title = title;
         this.imageUrl = imageUrl;
-        this.description = description;
+        this.numberOfImages = numberOfImages;
+        this.allPictures = allPictures;
     }
 }
